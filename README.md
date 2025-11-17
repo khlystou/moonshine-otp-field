@@ -10,3 +10,10 @@ composer require khlystou/moonshine-otp-field
 ```
 
 ## Usage
+```php
+use Khlystou\OtpField\Field\Otp;
+
+Otp::make()
+    ->lenght(4)
+    ->masked();
+```
